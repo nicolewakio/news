@@ -1,0 +1,21 @@
+h2.introduction {
+  color: blue;
+  cursor: pointer;
+}
+p.introduction{
+  font-style: italic;
+  font-family: fantasy;
+  color: black;
+}
+body{
+  background-color: #E6E6FA;
+}
+img.introduction{
+  width: 200px;
+  height: auto;
+  transition: transform .3s;
+  float:inherit;
+}
+img.introduction:active{
+  transform: scale(1.5);
+}
